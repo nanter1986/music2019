@@ -43,7 +43,7 @@ def chooseIfRiff():
     return selection
 
 theKey=chooseKey()
-tempo=random.choice([220,240,260,280,300])
+tempo=random.choice([100,110,120,130,140])
 print("key: "+theKey)
 print("tempo: "+str(tempo))
 track1 = Track(organOptions['track1'],tempo)
