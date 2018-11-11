@@ -17,7 +17,7 @@ def setTheOrgans():
     options=[]
     orgFirst={}
     orgFirst['track1']=random.choice(['Pad 2 (warm)'])
-    orgFirst['melodyTrack']=random.choice(['String Ensemble 1'])
+    orgFirst['melodyTrack']=random.choice(['Pad 2 (warm)'])
     #replace with continuous organ
     orgFirst['bassTrack']=random.choice(['Synth Bass 1'])
     orgFirst['kickTrack']=random.choice(['Synth Drum'])
