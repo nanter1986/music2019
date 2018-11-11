@@ -324,6 +324,7 @@ def addBass(progression):
 
 def pitchOptionsForSectionsFree(section):
     '''Provide the pitch movement options,more important sections get highlighted'''
+    #this should rather vary
     if section=="bridge":
         options=[0,+1,-1,+1,-1,+2,-2,+3,-3,+4,-4,+5,-5,+6,-6,+7,-7]
     elif section=="chorus":
