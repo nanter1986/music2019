@@ -357,6 +357,7 @@ def pitchOptionsForSectionsThirds(section):
     return options
 
 def pitchOptionsForSections(section):
+    #explore different options,delete or add
     options=[]
     if freeMelody=="free":
         options=pitchOptionsForSectionsFree(section)
