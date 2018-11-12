@@ -33,6 +33,7 @@ def setTheOrgans():
 organOptions=setTheOrgans()
 
 def chooseIfFree():
+    #try always limited
     options=["free","limited","thirds"]
     selection=random.choice(options)
     return selection
