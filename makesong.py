@@ -35,7 +35,8 @@ organOptions=setTheOrgans()
 def chooseIfFree():
     #try always limited
     options=["free","limited","thirds"]
-    selection=random.choice(options)
+    selection="limited"
+    #selection=random.choice(options)
     return selection
 
 def chooseIfRiff():
