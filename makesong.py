@@ -339,6 +339,7 @@ def pitchOptionsForSectionsFree(section):
 
 def pitchOptionsForSectionsLimited(section):
     #play around
+    #maybe change order on addition
     if section=="bridge":
         options=[0,+1,-1,+1,-1,+2,-2]
     elif section=="chorus":
