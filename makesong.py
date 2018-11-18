@@ -348,7 +348,7 @@ def pitchOptionsForSectionsLimited(section):
     elif section=="chorusVariable":
         options=[0,+1,-1,+1,-1,+3,-3,+6,-6]
     else:
-        options=[0,+1,-1]
+        options=[0,+1,-1,+1,-1,+4,-4,+5,-5,+8,-8]
     return options
 
 def pitchOptionsForSectionsThirds(section):
