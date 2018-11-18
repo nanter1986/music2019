@@ -342,7 +342,7 @@ def pitchOptionsForSectionsLimited(section):
     #maybe change order on addition
     #make probabilistic
     if section=="bridge":
-        options=[0,+1,-1,+1,-1,+2,-2]
+        options=[0,+1,-1,+1,-1,+2,-2,+4,-4]
     elif section=="chorus":
         options=[0,+1,-1,+1,-1,+2,-2,+3,-3]
     elif section=="chorusVariable":
