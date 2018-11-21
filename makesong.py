@@ -380,6 +380,7 @@ def verseSeq(section):
     '''make the basic sequence of notes used for verse lines,preferes smooth transitions'''
     #remove limit?
     #how can we remove container?
+    #move one octave up?
     theSeq=[]
     result=2
     for i in range(0,7):
