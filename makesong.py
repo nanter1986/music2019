@@ -573,6 +573,7 @@ def chorusSixRepeatingNotesVariable2(variablesNeededForMelody,scales):
 
 def makeMelodyPattern(scales,progression):
     '''creates melody pattern based on parameter,and adds ut to melody track,verse'''
+    #work here
     variablesNeededForMelody=melodyPatternVariables(progression)
     verseStarting=verseFourVaryingStartingNotes(variablesNeededForMelody)
     verseRepeating=verseSixRepeatingNotes(variablesNeededForMelody,scales)
