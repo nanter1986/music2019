@@ -416,6 +416,7 @@ def volumeVerseMaker(section):
 
 
 def melodyPatternVariables(progression):
+    #here is the core
     v={}
     v["generalMelodyVolume"]=120
     v["sequenceVerse"]=verseSeq("verse")
