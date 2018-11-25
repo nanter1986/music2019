@@ -419,6 +419,7 @@ def melodyPatternVariables(progression):
     #here is the core
     v={}
     v["generalMelodyVolume"]=120
+    #get seq of notes for verse,randomly from scale?
     v["sequenceVerse"]=verseSeq("verse")
     v["volumePatternVerse"]=volumeVerseMaker("verse")
     v["sequenceChorus"]=verseSeq("chorus")
