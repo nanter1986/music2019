@@ -582,6 +582,7 @@ def makeMelodyPattern(scales,progression):
     variablesNeededForMelody=melodyPatternVariables(progression)
     #get notes from the chords to start the bars
     verseStarting=verseFourVaryingStartingNotes(variablesNeededForMelody)
+    #here
     verseRepeating=verseSixRepeatingNotes(variablesNeededForMelody,scales)
     chorusStarting=chorusFourVaryingStartingNotes(variablesNeededForMelody)
     chorusRepeating=chorusSixRepeatingNotes(variablesNeededForMelody,scales)
