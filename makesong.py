@@ -511,6 +511,7 @@ def bridgeFourVaryingStartingNotes(variablesNeededForMelody):
 
 def verseSixRepeatingNotes(variablesNeededForMelody,scales):
     notes=[]
+    #six times?
     for i in range(0,6):
         volume=variablesNeededForMelody["generalMelodyVolume"]*variablesNeededForMelody["volumePatternVerse"][i]
         note=Note(scales[variablesNeededForMelody["sequenceVerse"][i]],4,0.25,volume)
