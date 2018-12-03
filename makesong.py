@@ -585,6 +585,7 @@ def makeMelodyPattern(scales,progression):
     verseStarting=verseFourVaryingStartingNotes(variablesNeededForMelody)
     #six notes added to array
     verseRepeating=verseSixRepeatingNotes(variablesNeededForMelody,scales)
+    #adds 4 notes to array?
     chorusStarting=chorusFourVaryingStartingNotes(variablesNeededForMelody)
     chorusRepeating=chorusSixRepeatingNotes(variablesNeededForMelody,scales)
     chorusRepVar=chorusSixRepeatingNotesVariable(variablesNeededForMelody,scales)
