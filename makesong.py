@@ -544,7 +544,7 @@ def bridgeSixRepeatingNotes2(variablesNeededForMelody,scales):
     return notes
 
 def chorusSixRepeatingNotes(variablesNeededForMelody,scales):
-    #here?
+    #array
     notes=[]
     for i in range(0,6):
         volume=variablesNeededForMelody["generalMelodyVolume"]*variablesNeededForMelody["volumePatternChorus"][i]
