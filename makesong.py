@@ -549,6 +549,7 @@ def chorusSixRepeatingNotes(variablesNeededForMelody,scales):
     for i in range(0,6):
         #get volume from argument
         volume=variablesNeededForMelody["generalMelodyVolume"]*variablesNeededForMelody["volumePatternChorus"][i]
+        #get chorus note on i position
         note=Note(scales[variablesNeededForMelody["sequenceChorus"][i]],5,0.25,volume)
         notes.append(note)
     return notes
