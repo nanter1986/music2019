@@ -805,7 +805,7 @@ def exportFile():
     else:
         freedom="LIMITED"
     #easyMIDI.writeMIDI("songs/"+name+".mid")
-    easyMIDI.writeMIDI("../../../storage/downloads/"+name+".mid")
+    easyMIDI.writeMIDI("../../"+name+".mid")
     #easyMIDI.writeMIDI("../../storage/"+name+".mid")
 
 def makeSong():
