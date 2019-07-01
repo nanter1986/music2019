@@ -822,6 +822,7 @@ def makeSong():
 
 def makeSongIdea():
     '''main function,delegates to other functions'''
+    #what it does
     progression=createProgressionIdea()
     addBackgroundIdea(progression)
     #addPercussion(progression)
