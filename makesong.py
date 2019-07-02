@@ -822,7 +822,7 @@ def makeSong():
 
 def makeSongIdea():
     '''main function,delegates to other functions'''
-    #what it does
+    #returns dictionary with chord prograssions to use.how created?
     progression=createProgressionIdea()
     addBackgroundIdea(progression)
     #addPercussion(progression)
