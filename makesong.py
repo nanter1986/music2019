@@ -823,6 +823,7 @@ def makeSong():
 def makeSongIdea():
     '''main function,delegates to other functions'''
     #returns dictionary with chord prograssions to use.how created?
+    #created by choosing chord randomly from predefined arrays of chords
     progression=createProgressionIdea()
     addBackgroundIdea(progression)
     #addPercussion(progression)
