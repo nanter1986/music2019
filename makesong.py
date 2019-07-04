@@ -204,6 +204,7 @@ def addProgression(progression):
 def addProgressionIdea(progression):
     '''adds chords to the chord track'''
     volumeOfChords=60
+    #create chords
     chord1=RomanChord(progression['progression'][0],4,1,theKey,progression['flavor'][0],volumeOfChords)
     chord2=RomanChord(progression['progression'][1],4,1,theKey,progression['flavor'][1],volumeOfChords)
     chord3=RomanChord(progression['progression'][2],4,1,theKey,progression['flavor'][2],volumeOfChords)
@@ -825,6 +826,7 @@ def makeSongIdea():
     #returns dictionary with chord prograssions to use.how created?
     #created by choosing chord randomly from predefined arrays of chords
     progression=createProgressionIdea()
+    #what does it do?
     addBackgroundIdea(progression)
     #addPercussion(progression)
     addBass(progression)
